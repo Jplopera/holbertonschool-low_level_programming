@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * print_diagonal - print diagonal n times
- * @n int variable
+ * @n: int variable
  */
 void print_diagonal(int n)
 {
 	int m, l;
 
-	for (m =0; m < n; m++)
+	for (m = 0; m < n; m++)
 	{
 		for (l = 0; l < m; l++)
 		{
@@ -15,7 +15,7 @@ void print_diagonal(int n)
 		}
 		_putchar(92);
 
-		if (m < (n -1))
+		if (m < (n - 1))
 		{
 			_putchar(10);
 		}
