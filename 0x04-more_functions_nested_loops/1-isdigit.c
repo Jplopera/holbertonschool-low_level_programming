@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isupper - search numbers
+ * _isdigit - search numbers
  * @c: int variable
- * Return: 1 if uppercase 0 if not
+ * Return: 1 if number 0 if not
  */
 int _isdigit(int c)
 {
