@@ -14,10 +14,10 @@ void print_square(int size)
 			_putchar(35);
 		}
 
-		if (m != size -1)
+		if (m != size - 1)
 		{
 			_putchar(10);
 		}
 	}
-	_putchar(10)
+	_putchar(10);
 }
