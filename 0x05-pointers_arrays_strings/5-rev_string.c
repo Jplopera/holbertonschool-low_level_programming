@@ -10,7 +10,7 @@ void rev_string(char *s)
 	for (a = 0; s[a] != 00; a++)
 		;
 
-	for (b = a; a--, c = 0; c < b / 2; a--, c++)
+	for (b = a; a--, c = 0; c < (b / 2); a--, c++)
 	{
 		d = s[c];
 		s[c] = s[a];
