@@ -23,8 +23,8 @@ char *_strstr(char *haystack, char *needle)
 		}
 		if (needle[b + c] == 00)
 			return (&haystack[a]);
+		b++;
 		a++;
-		i++;
 	}
-	return (00)
+	return (00);
 }
