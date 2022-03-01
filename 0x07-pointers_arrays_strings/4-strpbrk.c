@@ -17,5 +17,5 @@ char *_strpbrk(char *s, char *accept)
 				return (s + a);
 		}
 	}
-	return (00)
+	return (0)
 }
