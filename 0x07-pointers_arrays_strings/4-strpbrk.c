@@ -7,7 +7,7 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	int a, b;
+	unsigned int a, b;
 
 	for (a = 0; *(s + a) != 00; a++)
 	{
@@ -17,5 +17,5 @@ char *_strpbrk(char *s, char *accept)
 				return (s + a);
 		}
 	}
-	return (0)
+	return (00)
 }
