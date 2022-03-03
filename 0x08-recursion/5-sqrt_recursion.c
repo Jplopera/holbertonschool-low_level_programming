@@ -1,0 +1,28 @@
+#include "main.h"
+/**
+ * _sqrt_recursion - sqare root
+ * @n: integer
+ * Return: natural sqare root
+ */
+int _sqrt_recursion(int n)
+{
+	if (n < 0)
+		return (-1);
+	return (op(1, n));
+}
+
+/**
+ * op - operation with recursion
+ * @a: integer
+ * @b: integer
+ * Return: sqare root
+ */
+int op(int a, int b)
+{
+	if (a * a == b)
+		return (a);
+	else if (a * a > b)
+		return (-1);
+	else
+		return (op(a + 1, b));
+}
