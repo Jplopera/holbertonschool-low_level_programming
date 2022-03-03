@@ -21,8 +21,7 @@ int op(int a, int b)
 {
 	if (a * a == b)
 		return (a);
-	else if (a * a > b)
+	if (a * a > b)
 		return (-1);
-	else
-		return (op(a + 1, b));
+	return (op(a + 1, b));
 }
