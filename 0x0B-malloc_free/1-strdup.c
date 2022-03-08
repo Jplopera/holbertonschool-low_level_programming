@@ -13,8 +13,8 @@ char *_strdup(char *str)
 	if (str == 0)
 		return (0);
 
-	j = 0
-	while (str[j] != '00')
+	j = 0;
+	while (str[j] != 00)
 		j++;
 
 	du = malloc(j * sizeof(*str) + 1);
