@@ -3,16 +3,16 @@
 /**
  * malloc_checked - memory using malloc
  * @b: unsigned integer
- * Return: a
+ * Return: msl
  */
 void *malloc_checked(unsigned int b)
 {
-	void *a;
+	void *s;
 
-	a = malloc(a);
+	s = malloc(b);
 
-	if (a == 0)
+	if (s == 0)
 		exit(98);
 
-	return (a);
+	return (s);
 }
